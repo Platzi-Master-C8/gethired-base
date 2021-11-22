@@ -22,4 +22,8 @@ the page will be loaded on `http://localhost:3000`
 
 First, create a fork for the project, create a branch from the Main branch with the name `feature/[name-feature]`.
 
-Check linter rules with the script `yarn lint`. When your new feature is ready, create a new PR (peer review) to main branch
+Check linter rules with the script `yarn lint`.
+
+Update the package version to the next minor value. 
+
+When your new feature is ready, create a new PR (peer review) to main branch

@@ -18,6 +18,9 @@ Run the project with the script start
 
 the page will be loaded on `http://localhost:3000`
 
+<img width="1395" alt="Screen Shot 2021-11-21 at 11 41 08 PM" src="https://user-images.githubusercontent.com/6579616/142802252-b5b6a6dc-4263-42ed-91e7-7b648ecae9fa.png">
+
+
 ## How to contribute
 
 First, create a fork for the project, create a branch from the Main branch with the name `feature/[name-feature]`.

@@ -7,7 +7,7 @@ export const COLORS = {
     highlightText: '#1F1F1F',
     textComplement: '#737B7D',
     placeholder: '#ABA9A9',
-    error: '#EB1111',
+    error: '#FF5353',
     success: '#0AC533',
-    warning: '#F5E233',
+    warning: '#FBA618',
 };

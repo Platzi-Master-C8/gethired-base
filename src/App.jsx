@@ -4,14 +4,12 @@ import { ThemeProvider } from '@mui/material';
 import { THEME } from 'Constants/theme.constant';
 import './style.scss';
 
-const App = () => {
-    return (
-        <React.StrictMode>
-            <ThemeProvider theme={THEME}>
-                <Theme />
-            </ThemeProvider>
-        </React.StrictMode>
-    );
-};
+const App = () => (
+    <React.StrictMode>
+        <ThemeProvider theme={THEME}>
+            <Theme />
+        </ThemeProvider>
+    </React.StrictMode>
+);
 
 export default App;

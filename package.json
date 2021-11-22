@@ -7,9 +7,10 @@
     "start": "webpack server --mode development",
     "build": "webpack --mode production",
     "analize": "webpack-bundle-analyzer dist/stats.json",
-    "lint": "eslint ./src && prettier --check \"src/**/*.(jsx|js)\"",
-    "lint:fix": "eslint ./src --fix && prettier -w \"src/**/*.(jsx|js)\"",
-    "prepare": "husky install"
+    "lint": "eslint ./src/**/*.js[x] && prettier --check \"src/**/*.(jsx|js)\"",
+    "lint:fix": "eslint ./src/**/*.js[x] --fix && prettier -w \"src/**/*.(jsx|js)\"",
+    "prepare": "husky install",
+    "precommit": "lint-staged"
   },
   "dependencies": {
     "@emotion/react": "^11.6.0",
@@ -33,6 +34,7 @@
     "eslint": "^8.3.0",
     "eslint-config-airbnb": "^19.0.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-webpack": "^0.13.2",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
@@ -54,6 +56,6 @@
     "webpack-dev-server": "^4.5.0"
   },
   "lint-staged": {
-    "*.js[x]": "eslint --cache --fix"
+    "src/**/*.js[x]": ["eslint --cache --fix", "prettier -w"]
   }
 }

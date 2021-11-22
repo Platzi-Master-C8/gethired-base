@@ -9,5 +9,5 @@ export const COLORS = {
     placeholder: '#ABA9A9',
     error: '#EB1111',
     success: '#0AC533',
-    warning: '#F5E233'
-}
+    warning: '#F5E233',
+};

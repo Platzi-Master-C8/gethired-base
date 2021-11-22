@@ -33,12 +33,34 @@ const Theme = () => {
                     <div className="content">
                         <Typography variant="h1">h1. Heading</Typography>
                         <Typography variant="h2">h2. Heading</Typography>
+                        <Typography variant="h2" fontFamily="Montserrat">
+                            h2.(Montserrat) Heading
+                        </Typography>
                         <Typography variant="h3">h3. Heading</Typography>
+                        <Typography variant="subtitle1" fontFamily="Montserrat">
+                            subtitle1.(Montserrat) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                            blanditiis tenetur
+                        </Typography>
                         <Typography variant="subtitle1">
                             subtitle1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
                         </Typography>
+                        <Typography variant="body1" fontFamily="Montserrat">
+                            body1.(Montserrat) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis
+                            tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate
+                            numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
+                        </Typography>
                         <Typography variant="body1">
                             body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
+                            unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
+                            dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
+                        </Typography>
+                        <Typography variant="body2" fontFamily="Montserrat">
+                            body2.(Montserrat) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis
+                            tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate
+                            numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
+                        </Typography>
+                        <Typography variant="body2">
+                            body2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
                             unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
                             dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
                         </Typography>

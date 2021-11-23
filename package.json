@@ -27,6 +27,8 @@
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.3",
     "clean-webpack-plugin": "^4.0.0",
@@ -56,6 +58,9 @@
     "webpack-dev-server": "^4.5.0"
   },
   "lint-staged": {
-    "src/**/*.js[x]": ["eslint --cache --fix", "prettier -w"]
+    "src/**/*.js[x]": [
+      "eslint --cache --fix",
+      "prettier -w"
+    ]
   }
 }

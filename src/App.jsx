@@ -5,11 +5,11 @@ import { THEME } from 'Constants/theme.constant';
 import './style.scss';
 
 const App = () => (
-  <React.StrictMode>
-    <ThemeProvider theme={THEME}>
-      <Theme />
-    </ThemeProvider>
-  </React.StrictMode>
+	<React.StrictMode>
+		<ThemeProvider theme={THEME}>
+			<Theme />
+		</ThemeProvider>
+	</React.StrictMode>
 );
 
 export default App;

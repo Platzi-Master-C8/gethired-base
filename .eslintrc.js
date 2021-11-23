@@ -10,7 +10,7 @@ module.exports = {
 	},
 	extends: ['plugin:react/recommended', 'plugin:import/typescript', 'airbnb', 'prettier'],
 	parserOptions: {
-		ecmaVersion: 7,
+		ecmaVersion: 13,
 	},
 	plugins: ['react', 'jest', 'testing-library'],
 	rules: {

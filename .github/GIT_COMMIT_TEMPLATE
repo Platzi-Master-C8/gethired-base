@@ -1,0 +1,9 @@
+# The commit message should be structured as follows:
+<type>: <description>
+
+# [optional body]
+
+# [optional footer(s)]
+
+# Type allowed:
+# build chore ci docs feat fix perf refactor revert style test

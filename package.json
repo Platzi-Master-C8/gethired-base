@@ -1,6 +1,6 @@
 {
   "name": "react-tempalte",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -9,7 +9,7 @@
     "analize": "webpack-bundle-analyzer dist/stats.json",
     "lint": "eslint ./src/**/*.js[x] && prettier --check \"src/**/*.(jsx|js)\"",
     "lint:fix": "eslint ./src/**/*.js[x] --fix && prettier -w \"src/**/*.(jsx|js)\"",
-    "prepare": "husky install",
+    "prepare": "husky install && git config commit.template .github/GIT_COMMIT_TEMPLATE",
     "precommit": "lint-staged"
   },
   "dependencies": {

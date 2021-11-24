@@ -12,16 +12,24 @@
     "prepare": "husky install && git config commit.template .github/GIT_COMMIT_TEMPLATE",
     "precommit": "lint-staged"
   },
+  "resolutions": {
+    "@mui/utils": "5.1.1",
+    "@mui/material": "5.1.1"
+  },
   "dependencies": {
     "@emotion/react": "11.6.0",
     "@emotion/styled": "11.6.0",
-    "@mui/icons-material": "5.1.1",
-    "@mui/material": "5.1.1",
     "@mui/styled-engine-sc": "5.1.0",
     "@mui/styles": "5.1.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "styled-components": "5.3.3"
+    "styled-components": "5.3.3",
+    "@mui/icons-material": "5.1.1",
+    "@mui/material": "5.1.1",
+    "@mui/utils": "5.1.1",
+    "@mui/private-theming": "5.1.1",
+    "@mui/styled-engine": "5.1.1",
+    "@mui/system": "5.1.1"
   },
   "devDependencies": {
     "@babel/core": "7.16.0",

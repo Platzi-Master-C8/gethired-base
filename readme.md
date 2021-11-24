@@ -23,10 +23,9 @@ the page will be loaded on `http://localhost:3000`
 
 ## How to contribute
 
-First, create a fork for the project, create a branch from the Main branch with the name `feature/[name-feature]`.
+Thank you for being here, we're really happy you decided to contribute to the project.
 
-Check linter rules with the script `yarn lint`.
+Before you contribute to the project please make sure to read all items below.
 
-Update the package version to the next minor value. 
-
-When your new feature is ready, create a new PR (peer review) to main branch
+* [Code of Conduct](/CODE_OF_CONDUCT.md)
+* [Contributing Guide](/CONTRIBUTING.md)

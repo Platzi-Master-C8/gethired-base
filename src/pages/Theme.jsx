@@ -1,9 +1,13 @@
 import React from 'react';
+
 import Typography from '@mui/material/Typography';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Container from '@mui/material/Container';
+
+import Button from 'Components/Button';
+
 import { makeStyles } from '@mui/styles';
 
 import 'Styles/themeExample.scss';
@@ -85,6 +89,7 @@ const Theme = () => {
                     </div>
                 </AccordionDetails>
             </Accordion>
+            <Button />
         </Container>
     );
 };

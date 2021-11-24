@@ -22,7 +22,14 @@ module.exports = {
             {
                 namedComponents: 'arrow-function',
             },
-        ],
-        'no-restricted-exports': 'off'
+        ]
     },
+    overrides: [
+        {
+            files: ['./src/components/**/index.js'],
+            rules: {
+                'no-restricted-exports': 'off',
+            },
+        },
+    ]
 };

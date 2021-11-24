@@ -18,12 +18,14 @@ module.exports = {
             Constants: path.resolve(__dirname, './src/constants'),
             Pages: path.resolve(__dirname, './src/pages'),
             Styles: path.resolve(__dirname, './src/style'),
+            Routes: path.resolve(__dirname, './src/routes'),
         },
     },
     devServer: {
         port: '3000',
         hot: true,
         watchFiles: ['./src/**'],
+        historyApiFallback: true,
     },
 
     optimization: {

@@ -15,11 +15,21 @@ module.exports = {
     rules: {
         'import/prefer-default-export': 'off',
         'import/no-unresolved': 'off',
+        'arrow-body-style': 'off',
+        'react/jsx-fragments': ['error', 'element'],
         'react/function-component-definition': [
             'error',
             {
                 namedComponents: 'arrow-function',
             },
-        ],
+        ]
     },
+    overrides: [
+        {
+            files: ['./src/components/**/index.js'],
+            rules: {
+                'no-restricted-exports': 'off',
+            },
+        },
+    ]
 };

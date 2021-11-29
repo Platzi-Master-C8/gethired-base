@@ -1,7 +1,5 @@
 import React from 'react';
-import { ThemeProvider } from '@mui/material';
-
-import { THEME } from 'Constants/theme.constant';
+import { ThemeProvider } from '@master-c8/theme';
 
 import Routes from 'Routes';
 
@@ -9,7 +7,7 @@ import 'Styles/style.scss';
 
 const App = () => (
     <React.StrictMode>
-        <ThemeProvider theme={THEME}>
+        <ThemeProvider>
             <Routes />
         </ThemeProvider>
     </React.StrictMode>

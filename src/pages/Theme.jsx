@@ -11,7 +11,7 @@ import Button from 'Components/Button';
 import { makeStyles } from '@mui/styles';
 
 import 'Styles/themeExample.scss';
-import { COLORS } from 'Constants/colors.constants';
+import { COLORS } from '@master-c8/theme';
 
 const useStyle = makeStyles({
     colorContent: {

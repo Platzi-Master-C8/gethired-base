@@ -21,7 +21,7 @@
         "@emotion/styled": "11.6.0",
         "@master-c8/commons": "^0.0.5",
         "@master-c8/icons": "^0.1.1",
-        "@master-c8/theme": "^0.1.5",
+        "@master-c8/theme": "^0.1.8",
         "@mui/icons-material": "5.1.1",
         "@mui/material": "5.2.1",
         "@mui/private-theming": "5.1.1",

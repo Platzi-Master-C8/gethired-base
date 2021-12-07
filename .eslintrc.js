@@ -2,7 +2,7 @@ module.exports = {
     env: {
         browser: true,
         es2021: true,
-        jest: true
+        jest: true,
     },
     extends: ['eslint:recommended', 'plugin:react/recommended', 'airbnb', 'airbnb/hooks', 'prettier'],
     parserOptions: {
@@ -18,12 +18,13 @@ module.exports = {
         'import/no-unresolved': 'off',
         'arrow-body-style': 'off',
         'react/jsx-fragments': ['error', 'element'],
+        'import/no-extraneous-dependencies': 'off',
         'react/function-component-definition': [
             'error',
             {
                 namedComponents: 'arrow-function',
             },
-        ]
+        ],
     },
     overrides: [
         {
@@ -32,5 +33,5 @@ module.exports = {
                 'no-restricted-exports': 'off',
             },
         },
-    ]
+    ],
 };

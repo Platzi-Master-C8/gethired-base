@@ -101,7 +101,9 @@
         ],
         "moduleNameMapper": {
             "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js",
-            "\\.(gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js"
+            "\\.(gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js",
+            "^Components(.*)": "<rootDir>/src/components/$1",
+            "^Constants(.*)": "<rootDir>/src/constants/$1"
         }
     }
 }
